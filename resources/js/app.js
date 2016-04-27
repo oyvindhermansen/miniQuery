@@ -9,3 +9,5 @@ mQ('button')
       .addAttr('data-counter', counter)
       .html(counter)
   })
+
+mQ('h1').destroy()
