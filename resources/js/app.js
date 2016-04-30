@@ -1,13 +1,15 @@
 import { mQ } from './lib/miniQuery'
 
-let counter = 0
-mQ('button')
-  .addClass('btn')
+mQ('h1')
+  .addClass('hey')
+  .removeClass('hey')
+  .addClass('lol')
   .on('click', () => {
-    counter++
-    mQ('span')
-      .addAttr('data-counter', counter)
-      .html(counter)
+    if (mQ('h1').hasClass('lol')) {
+      mQ('h1').hide()
+    }
   })
 
-mQ('h1').destroy()
+mQ('button').on('click', () => {
+  mQ('h1').show()
+})

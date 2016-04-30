@@ -87,6 +87,16 @@ class miniQuery {
     this.mQSelector[0].parentNode.removeChild(this.mQSelector[0])
     return this
   }
+
+  hide() {
+    this.mQSelector[0].style.display = 'none'
+    return this
+  }
+
+  show() {
+    this.mQSelector[0].style.display = 'block'
+    return this
+  }
 }
 
 export const mQ = selector => new miniQuery(selector)

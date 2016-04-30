@@ -30,4 +30,6 @@ wipeAttr()
 addAttr()
 getAttr()
 destroy()
+hide()
+show()
 ```
