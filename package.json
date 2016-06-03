@@ -10,14 +10,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/oyvindhermansen/miniquery.git"
+    "url": "git+https://github.com/oyvindhermansen/miniQuery.git"
   },
   "author": "Øyvind Hermansen <oyvindher@gmail.com>",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/oyvindhermansen/miniquery/issues"
+    "url": "https://github.com/oyvindhermansen/miniQuery/issues"
   },
-  "homepage": "https://github.com/oyvindhermansen/miniquery#readme",
+  "homepage": "https://github.com/oyvindhermansen/miniQuery#readme",
   "devDependencies": {
     "babel": "^6.5.2",
     "babel-cli": "^6.6.5",
